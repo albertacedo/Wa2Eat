@@ -1,0 +1,99 @@
+
+.fondoini{
+    background-image: url("../media/backini.PNG");
+    background-position: 39% 50%;
+}
+
+.album{
+
+
+}
+.card-img-top{
+
+    height: 545px;
+    width: 100px;
+
+}
+.card{
+    margin: auto;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #483C32;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+h1 {
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+body {
+    background: #2fc0ff; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+}
+
+
+input[type=text], select{
+
+    width: 20%;
+    padding: 12px 20px;
+    margin: 6px 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="password"]{
+
+    width: 20%;
+    padding: 12px 20px;
+    margin: 6px 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.container-fluid .search-container {
+    float: right;
+}
+
+.container-fluid input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    margin-left: 750px;
+}
+
+.container-fluid .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.container-fluid .search-container button:hover {
+    background: whitesmoke;
+}
+
+.logged_in {
+    display: unset;
+}
+
+.no_logged_in {
+    display: none;
+}
